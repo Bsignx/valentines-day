@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>For Mary</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="//rawgithub.com/ottis/canvas-particles/master/js/particle.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//rawgithub.com/ottis/canvas-particles/master/js/particle_system.js"
+    ></script>
+  </head>
+
+  <body>
+    <canvas id="container"></canvas>
+    <p>
+        Mary, o amor é isso. Não prende, não aperta,
+        não sufoca. Porque quando se transforma em um nó, já deixou de ser um
+        laço. Feliz dia dos namorados para você, que é o grande amor da minha vida!
+      <br />
+      <span>I love you ❤</span>
+    </p>
+    <script type="text/javascript">
+      var system = new particleSystem({ canvas_id: "container", height: 400 });
+      system.start();
+    </script>
+  </body>
+</html>

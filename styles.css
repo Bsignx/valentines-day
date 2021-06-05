@@ -1,0 +1,28 @@
+body {
+  padding-top: 100px;
+  margin: 0;
+  text-align: center;
+  background: #1d1d1d;
+
+
+  font: 22px   'Indie Flower', cursive, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #777;
+
+  overflow: hidden;
+}
+
+canvas {
+  width: 100%;
+}
+
+p {
+  
+  max-width: 470px;
+  margin: 0 auto;
+  line-height: 150%; 
+ 
+}
+
+span {
+  color: rgba(247, 66, 126, 0.8);
+}
